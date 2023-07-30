@@ -37,5 +37,5 @@ aws cloudwatch get-metric-data \
 To convert JSON metric data into CSV format, execute the following script.
 
 ```bash
-./json_to_csv result.json | tee result.csv
+./json_to_csv.rb result.json | tee result.csv
 ```
