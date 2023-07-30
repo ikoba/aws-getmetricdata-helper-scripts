@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
-# Output CSV to standard output.
+# Convert input JSON file into CSV and output it to standard output.
 # Specify a JSON file obtained by `aws cloudwatch get-metric-data` as the first argument.
 #
 
